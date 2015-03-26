@@ -1,6 +1,8 @@
 package demo.service.impl;
 
 import demo.service.FooService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcOperations;
 import org.springframework.stereotype.Component;
 
 /**
@@ -8,4 +10,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class FooServiceImpl implements FooService {
+    @Autowired
+    private JdbcOperations jdbcOperations;
+
+
 }

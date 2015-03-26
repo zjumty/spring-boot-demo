@@ -5,11 +5,14 @@
       <configuration>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/demo/DemoApplication.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/demo/config/DataSourceConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/demo/config/DataSourceConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/demo/config/MyBatisConfiguration.java</file>
         </fileset>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -50,7 +53,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-mongodb:1.6.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.9.2.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.10" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.10" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-freemarker:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.21" level="project" />
@@ -106,5 +108,11 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.1.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.2.2.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.2.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: com.zaxxer:HikariCP:2.3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.10" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.2.8" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.2" level="project" />
   </component>
 </module>
