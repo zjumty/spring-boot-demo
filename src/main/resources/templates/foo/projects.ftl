@@ -1,10 +1,11 @@
+<#-- @ftlvariable name="name" type="java.lang.String" -->
 <#-- @ftlvariable name="projects" type="java.util.List<demo.domain.Project>" -->
 <html>
 <head>
     <title>Projects</title>
 </head>
 <body>
-aaa
+${name} aaaaaaa bbbbb ccc ddd eee fff
 <table>
     <tr>
         <th>ID</th>

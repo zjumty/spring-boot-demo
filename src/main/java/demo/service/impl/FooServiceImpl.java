@@ -18,6 +18,7 @@ public class FooServiceImpl implements FooService {
     private ProjectMapper projectMapper;
 
     public List<Project> findAllProjects() {
+        int a = 1;
         return projectMapper.findAllProjects();
     }
 }
