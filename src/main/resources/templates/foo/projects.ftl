@@ -1,3 +1,4 @@
+<#-- @ftlvariable name="quotes" type="java.util.List<demo.domain.Quote>" -->
 <#-- @ftlvariable name="name" type="java.lang.String" -->
 <#-- @ftlvariable name="projects" type="java.util.List<demo.domain.Project>" -->
 <html>
@@ -25,5 +26,22 @@ ${name} aaaaaaa bbbbb ccc ddd eee fff
     </tr>
 </#list>
 </table>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>TYPE</th>
+        <th>NAME</th>
+    </tr>
+
+<#list quotes as quote>
+    <tr>
+        <td>${quote.id.toString()}</td>
+        <td>${quote.tenantId}</td>
+        <td>${quote.symbol}</td>
+    </tr>
+</#list>
+</table>
+
 </body>
 </html>

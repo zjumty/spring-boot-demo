@@ -12,6 +12,14 @@ spring:
       template_update_delay : 0
       default_encoding : UTF-8
 
+  data:
+    mongodb:
+      host: 120.26.72.219
+      port: 27017
+      username: traderwork
+      password: abc123
+      database: traderwork
+      authenticationDatabase: traderwork
 ---
 spring:
     profiles: dev

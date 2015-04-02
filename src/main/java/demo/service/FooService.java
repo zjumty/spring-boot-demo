@@ -1,6 +1,7 @@
 package demo.service;
 
 import demo.domain.Project;
+import demo.domain.Quote;
 
 import java.util.List;
 
@@ -9,4 +10,6 @@ import java.util.List;
  */
 public interface FooService {
     List<Project> findAllProjects();
+
+    List<Quote> findQuotes();
 }

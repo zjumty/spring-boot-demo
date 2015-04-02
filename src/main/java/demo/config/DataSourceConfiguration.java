@@ -43,7 +43,7 @@ public class DataSourceConfiguration {
     /**
      * TransactionManager
      */
-    @Bean
+    @Bean(name = "transactionManager")
     @Autowired
     protected PlatformTransactionManager createTransactionManager(DataSource dataSource) {
         return new DataSourceTransactionManager(dataSource);

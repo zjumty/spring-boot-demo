@@ -22,6 +22,7 @@ public class FooController {
     public String listProjects(Model model) {
         List<Project> projects = fooService.findAllProjects();
         model.addAttribute("projects", projects);
+        model.addAttribute("quotes", fooService.findQuotes());
         model.addAttribute("name", "Tom");
         return "/foo/projects";
     }
