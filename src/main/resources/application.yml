@@ -14,12 +14,12 @@ spring:
 
   data:
     mongodb:
-      host: 120.26.72.219
+      host: localhost
       port: 27017
-      username: traderwork
-      password: abc123
-      database: traderwork
-      authenticationDatabase: traderwork
+      username: storeuser
+      password: 123456
+      database: jstore
+      authenticationDatabase: jstore
 ---
 spring:
     profiles: dev

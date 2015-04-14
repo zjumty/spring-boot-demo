@@ -10,6 +10,7 @@
           <file>file://$MODULE_DIR$/src/main/java/demo/config/MyBatisConfiguration.java</file>
           <file>file://$MODULE_DIR$/src/main/java/demo/config/MongoDBConfiguration.java</file>
           <file>file://$MODULE_DIR$/src/main/java/demo/config/MongoDBConfiguration.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/demo/config/WebConfiguration.java</file>
         </fileset>
       </configuration>
     </facet>
@@ -118,5 +119,9 @@
     <orderEntry type="library" name="Maven: org.springframework:springloaded:1.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:1.2.2" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
   </component>
 </module>
