@@ -16,6 +16,17 @@ public class Project {
 
     private Date end;
 
+    public Project() {
+    }
+
+    public Project(Integer id, String type, String name, Date begin, Date end) {
+        this.id = id;
+        this.type = type;
+        this.name = name;
+        this.begin = begin;
+        this.end = end;
+    }
+
     public Integer getId() {
         return id;
     }
